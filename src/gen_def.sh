@@ -5,7 +5,8 @@ printf "// This is generated automatically on ${timestamp}\n"
 printf "// Check the # of bits for state registers !!!\n"
 printf "// Check the # of bits for flag registers !!!\n\n"
 
-STATES=("S_RST"             \
+STATES=(
+	"S_RST"             \
         "S_IDLE"            \
         "S_G"               \
         "S_Y"               \
